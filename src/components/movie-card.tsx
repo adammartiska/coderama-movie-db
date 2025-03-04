@@ -60,8 +60,7 @@ const MovieCard = ({
   const posterUrl =
     movie.Poster && movie.Poster !== "N/A"
       ? movie.Poster
-      : "https://via.placeholder.com/300x450?text=No+Poster";
-
+      : "https://www.content.numetro.co.za/ui_images/no_poster.png";
   return (
     <StyledCard elevation={3}>
       <StyledLink to={`/movie/${movie.imdbID}`}>
